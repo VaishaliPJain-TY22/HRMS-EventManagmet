@@ -1,0 +1,91 @@
+.title{
+    padding: 10px;
+    font-weight: 600;
+    color: #1181B2;
+    border-bottom: 1px solid #9FCCE0;
+    font-size: small;
+    position: sticky;
+    top: 0;
+}
+    
+    .box{
+        background-color: #FCFEFF;
+        height: 100%;
+    }
+    
+    .closeButton{
+        font-weight: 600;
+        float: right;
+        color: #797A79; 
+        cursor: pointer;
+    }
+    
+    .modal_container{
+        padding: 10px;
+        overflow: scroll;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 350px;
+    }
+
+    .modal_container::-webkit-scrollbar {
+        width: 3px;
+      }
+      
+      .modal_container::-webkit-scrollbar-track {
+        background: var(--scrollbarBG);
+      }
+      
+      .modal_container::-webkit-scrollbar-thumb {
+        background-color: lightgray ;
+        border-radius: 6px;
+        border: 1px solid var(--scrollbarBG);
+      }
+    
+    #required{
+        color: red;
+    }
+    
+    label{
+        font-size: small;
+        margin-top: 50px !important;
+    }
+    
+    .textField{
+        height: 20px;
+    }
+    
+    .border{
+        /* border-radius: none !important; */
+        border-radius: 0px !important;
+    
+    }
+    
+    .modal_actions{
+        float: right;
+        padding: 20px;
+        position: sticky;
+    }
+    
+    .textArea{
+        width: 97.4%;
+        background-color: #FCFEFF !important;
+        border-radius: 5px;
+        padding: 5px;
+        margin-right : 100px;
+        border: 1px solid gray;
+
+    }
+    
+    .textArea:focus{
+        border:2px solid #1976d2 !important;
+        outline: none;
+    }
+
+    .MuiAutocomplete-endAdornment{
+        border-left: 1px solid gray;
+    }
+
+    .css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+        width: 100%
+    }
